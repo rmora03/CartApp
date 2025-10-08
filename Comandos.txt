@@ -12,3 +12,88 @@ npm install react-native-thermal-printer
 
 //Camara
 npm install react-native-vision-camera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <TouchableOpacity 
+      style={styles.button} 
+      onPress={onPress}
+      >
+      <Text>Permisos de camara</Text>
+    </TouchableOpacity>
+      const data = await getLocalConfiguration()
+     const permisos = await permisosCamara()
+     
+      if (permisos === PermissionsAndroid.RESULTS.NEVER_ASK_AGAIN) {
+        Alert.alert(
+          "Permiso requerido",
+          "Debes habilitar la cámara manualmente en ajustes.",
+          [
+            { text: "Cancelar", style: "cancel" },
+            { text: "Abrir ajustes", onPress: () => Linking.openSettings() }
+          ]
+        );
+      }
+
+
+
+
+,
+
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": true,
+        "regenerator": true
+      }
+    ]
+  ]
