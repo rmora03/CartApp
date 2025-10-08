@@ -1,0 +1,14 @@
+Comandos
+npx @react-native-community/cli@latest init
+npm run Android
+npm install --save react-native-webview
+
+// watermelondb
+npm install @nozbe/watermelondb
+npm install -D @babel/plugin-proposal-decorators
+
+// thermal-printer
+npm install react-native-thermal-printer
+
+//Camara
+npm install react-native-vision-camera
