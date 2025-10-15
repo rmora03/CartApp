@@ -13,6 +13,29 @@ npm install react-native-thermal-printer
 //Camara
 npm install react-native-vision-camera
 
+//Tailwind React Native Classnames
+npm install twrnc
+
+//Geolocalizacion
+npm install @react-native-community/geolocation --save
+
+
+
+//Comandos para crear APK
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+cd android
+
+./gradlew assembleDebug
+
+//Ruta APK
+project/android/app/build/outputs/apk/debug/app-debug.apk
+
+//Error ts
+npm install --save-dev typescript @react-native/typescript-config
+
+
+
 
 
 
