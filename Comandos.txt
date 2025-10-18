@@ -41,6 +41,15 @@ npm install --save-dev typescript @react-native/typescript-config
  npm install @notifee/react-native
 
 
+//Icono
+Un icono base de 1024x1024 píxeles
+
+npm install rn-app-icons
+npx rn-app-icons --input ./iconoCart.jpeg
+
+//Token
+npm install @react-native-firebase/messaging
+
 
 
 
